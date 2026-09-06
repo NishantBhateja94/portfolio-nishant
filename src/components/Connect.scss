@@ -1,0 +1,218 @@
+.connectContainer {
+  z-index: 998 !important;
+  position: relative;
+  height: 85%;
+  width: 100%;
+  overflow: hidden !important;
+  // border: 10px solid purple;
+  padding-left: 2%;
+  padding-right: 2%;
+  //   padding-top: 15%;
+  //   padding-bottom: 8%;
+}
+.connectCardsContainer {
+  display: flex;
+  flex-direction: column;
+  column-gap: 1rem;
+  align-items: center;
+  gap: 1rem;
+  // border: 2px solid red;
+  height: 100%;
+  overflow: scroll;
+  flex-wrap: wrap;
+  // padding-left: 12rem;
+  // padding-top: 8%;
+  // padding-bottom: 8%;
+  justify-content: center;
+}
+.formCard {
+  background-color: #ffffff10;
+  height: 40rem;
+  width: 48%;
+  border-radius: 20px;
+  color: #c0c0c0;
+  box-shadow: 0 25px 5px 0 rgba(0, 0, 0, 0.2),
+    0 25px 8px 0 rgba(0, 0, 0, 0.1882352941);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  // padding: 20px;
+  // margin: auto;
+
+  .MuiInput-root::before {
+    border-bottom: 2px solid #c0c0c0 !important;
+  }
+  .MuiInput-root::after {
+    border-bottom: 2px solid #c0c0c0 !important;
+  }
+
+  .MuiInputBase-input,
+  .MuiInput-input,
+  .MuiInputBase-inputAdornedEnd,
+  .MuiAutocomplete-input,
+  .MuiAutocomplete-inputFocused {
+    color: #c0c0c0 !important;
+    color: white !important;
+    border-radius: 20px;
+    font-family: "Montserrat Alternates", sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    color: #c0c0c0 !important;
+  }
+
+  .MuiFormLabel-root {
+    color: #c0c0c0 !important;
+    color: white !important;
+    border-radius: 20px;
+    font-family: "Montserrat Alternates", sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    color: #c0c0c0 !important;
+  }
+  .MuiFormLabel-root .Mui-focused {
+    color: #c0c0c0 !important;
+    color: white !important;
+    border-radius: 20px;
+    font-family: "Montserrat Alternates", sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    color: #c0c0c0 !important;
+  }
+  .MuiButtonBase-root,
+  .MuiButton-root,
+  .MuiButton-outlined,
+  .MuiButton-outlinedPrimary,
+  .MuiButton-sizeMedium,
+  .MuiButton-outlinedSizeMedium,
+  .MuiButton-colorPrimary,
+  .MuiButton-fullWidth,
+  .MuiButton-root,
+  .MuiButton-outlined,
+  .MuiButton-outlinedPrimary,
+  .MuiButton-sizeMedium,
+  .MuiButton-outlinedSizeMedium,
+  .MuiButton-colorPrimary,
+  .MuiButton-fullWidth {
+    color: white !important;
+    border-radius: 20px;
+    font-family: "Montserrat Alternates", sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    color: #c0c0c0 !important;
+    // background-color: white !important;
+  }
+  .MuiButtonBase-root:hover {
+    background-color: #ffffff15 !important;
+  }
+  .MuiButton-root :hover {
+    background-color: #ffffff15 !important;
+  }
+}
+.socialsCard {
+  // background-color: #ffffff29;
+  // height: 5rem;
+  width: 15rem;
+  border-radius: 20px;
+  color: #c0c0c0;
+  // border: 2px solid white;
+  width: 100%;
+  // box-shadow: 0 25px 5px 0 #00000033, 0 25px 8px 0 #00000030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  // padding: 20px;
+  margin: auto;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.socialsFlexContainer {
+  width: 40%;
+  // position: relative;
+  // left: 6%;
+  // display: flex;
+  // flex-direction: column;
+  // gap:2rem;
+}
+.socialIcon {
+  // color:linear-gradient(135deg, #b3b3b3, #0d0d0d);
+  // display: inline;
+  // width: 3rem;
+  height: 3rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  // text-align: center;
+  background: linear-gradient(135deg, #b3b3b3, #0d0d0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.socialsCard:hover {
+  cursor: pointer;
+}
+.socialTxt:hover {
+  text-decoration: underline;
+}
+.roboImg {
+  height: 30rem;
+  width: 30rem;
+}
+.formHeader {
+  font-size: 3.5rem;
+  font-weight: 600;
+  background: radial-gradient(circle, #b3b3b3, #656464);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* ensures gradient clips correctly */
+}
+
+.marginTop {
+  margin-top: 1.5% !important;
+}
+.marginTopmore {
+  margin-top: 3% !important;
+}
+.formContainer {
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .socialsFlexContainer {
+    display: none;
+  }
+  .formCard {
+    height: max-content;
+    width: 90%;
+  }
+  .socialsCard {
+    // background-color: #ffffff29;
+    // height: 5rem;
+    // width: 15rem;
+    border-radius: 20px;
+    color: #c0c0c0;
+    // border: 2px solid white;
+    // width: 100%;
+    // box-shadow: 0 25px 5px 0 #00000033, 0 25px 8px 0 #00000030;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    // padding: 20px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .socialIcon {
+    height: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .connectCardsContainer {
+    position: absolute;
+    top: 10%;
+  }
+  .formHeader {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+}

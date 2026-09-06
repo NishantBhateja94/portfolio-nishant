@@ -1,0 +1,141 @@
+.homeContainer {
+  display: none;
+}
+
+.homeTextParent {
+  // border: 2px solid red;
+}
+.homeText {
+  font-size: 3rem !important;
+  text-decoration: underline;
+}
+.homeSubText {
+  font-size: 1.15rem !important;
+  display: inline-block;
+  width: 80% !important;
+}
+.homeImg {
+  height: 40vh;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  // box-shadow: 10px 10px #ECDFCC;
+}
+.typed-cursor {
+  font-size: 2.5rem; // match your text
+  color: #c0c0c0; // or any color you want
+  animation: blink 0.7s infinite;
+}
+.college {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1.35rem !important;
+}
+
+// @keyframes blink {
+//   0%,
+//   100% {
+//     opacity: 1;
+//   }
+//   50% {
+//     opacity: 0;
+//   }
+// }
+@media (max-width: 768px) {
+  
+  .homeImg {
+    height: 32.5vh;
+  }
+
+  .homeContainer {
+    height: 100%;
+    // border: 2px solid red;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 100%;
+    // border: 2px solid green;
+    position: relative;
+    z-index: 999 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .homeTextContainer {
+    color: #c0c0c0;
+    height: 40vh;
+    // width: 30rem;
+    text-shadow: 2px 2px 4px black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .homeText {
+    font-size: 2rem !important;
+    text-decoration: underline;
+  }
+  .homeSubText {
+    display: inline-block;
+    width: 88% !important;
+    font-size: 1.1rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .homeContainer {
+    height: 90%;
+    // border: 2px solid red;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 100%;
+    // border: 2px solid green;
+    position: relative;
+    z-index: 999 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeTextContainer {
+    color: #c0c0c0;
+    height: 40vh;
+    width: 30rem;
+    // padding-top: 20%;
+    // padding-bottom: 20%;
+
+    // border: 2px solid black;
+    // padding-left: 27%;
+    // padding-top: 3%;
+    text-shadow: 2px 2px 4px black;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 1200px) {
+  .homeText {
+    font-size: 3.2rem !important;
+    text-decoration: underline;
+  }
+  .homeTextContainer {
+    color: #c0c0c0;
+    height: 40vh;
+    width: 35rem;
+    // padding-top: 20%;
+    // padding-bottom: 20%;
+
+    // border: 2px solid black;
+    // padding-left: 27%;
+    // padding-top: 3%;
+    text-shadow: 2px 2px 4px black;
+    display: flex;
+    align-items: center;
+  }
+  .homeSubText {
+    font-size: 1.3rem !important;
+    display: inline-block;
+    width: 80% !important;
+  }
+  .homeContainer {
+    padding-top: 5%;
+  }
+  .typed-cursor {
+    font-size: 3.75rem; // match your text
+  }
+}

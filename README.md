@@ -1,7 +1,7 @@
 
-# 🌐 Nishant Bhateja Portfolio
+# 🌐 Nishant Mourya's Portfolio
 
-Welcome to the source code of **Nishant Bhateja personal portfolio website**, built using **React.js** and powered by **Vite** for ultra-fast development. The site is fully responsive, beautifully animated, and showcases a 3D background along with smooth UI components.
+Welcome to the source code of **Nishant Mourya's personal portfolio website**, built using **React.js** and powered by **Vite** for ultra-fast development. The site is fully responsive, beautifully animated, and showcases a 3D background along with smooth UI components.
 
 ## 🚀 Tech Stack
 
@@ -34,3 +34,29 @@ The website is built with a mobile-first approach and adapts seamlessly to:
 
 No matter the screen size, the user experience stays sharp and fluid.
 
+---
+
+## 🛠️ Getting Started
+
+Follow the steps below to run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/nishant-portfolio.git
+cd nishant-portfolio
+```
+
+2. Install Dependencies
+```bash
+npm install
+```
+
+4. Start the Development Server
+```bash
+npm run dev
+```
+
+The app will start running on http://localhost:5173 (Vite’s default port) 🚀
+
+Built with ❤️ using React, Vite, MUI, Framer Motion, Animate.css, and Three.js — by Nishant Mourya

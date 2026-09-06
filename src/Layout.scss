@@ -1,0 +1,21 @@
+.container{
+    background-color: black;
+    background-image: 
+      radial-gradient(white 1px, transparent 1px),
+      radial-gradient(white 1px, transparent 1px);
+    background-size: 200px 200px;
+    background-position: 
+      0 0,
+      100px 50px;
+    position: relative;
+}
+a:visited,
+a:link,
+a:hover,
+a:active {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+
+  
