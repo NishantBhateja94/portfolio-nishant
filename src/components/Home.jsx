@@ -30,7 +30,7 @@ const Home = () => {
             frontend applications and modern JavaScript/TypeScript technologies.
             <br />
             <a
-              href="https://drive.google.com/file/d/18pIGd642IWzii16ycEEq5Cn79ba52O_f/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1LlM3tg0Z59AqsOHWUKEpb5xHOel79hft/view?usp=drive_link"
               target="_blank"
             >
               <span className="college">
